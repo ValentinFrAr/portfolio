@@ -1,0 +1,63 @@
+.card-header {
+  width: 170px;
+  height: 220px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 3px  var(--color-1);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.card-header:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  background: transparent;
+}
+
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-image: url('../assets/interrogation2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+}
+
+.card-header:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  box-shadow: 0px 0px 5px 3px  var(--color-2);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  background-image: url('../assets/moi-Photoroom.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card-header:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
