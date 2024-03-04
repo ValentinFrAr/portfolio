@@ -37,7 +37,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center">
+    <div id="contact" className="d-flex justify-content-center">
       <div className="form-container">
         <form ref={form} onSubmit={sendEmail} className="form">
           <div className="form-group">

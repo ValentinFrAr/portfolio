@@ -114,6 +114,14 @@ a:hover{
 color: var(--color-1);
 }
 
+.cv{
+  text-decoration: none;
+}
+
+.cv:hover{
+  color: var(--color-2);
+}
+
 
 @media screen and (min-width: 652px) {
   .header-content{
