@@ -16,7 +16,7 @@ function App() {
         <FloatingWhatsApp
           phoneNumber="+54 11 23278365"
           accountName="Valentin"
-          chatMessage="Hola, estoy disponible para cualquier cosa. "
+          chatMessage="Hola, bienvenido a mi portfolio contáctame por aquí. "
           placeholder="Hola Valentin.... "
           messageDelay={0}
           statusMessage="Responde en menos de 10 minutos"
